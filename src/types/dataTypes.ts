@@ -63,3 +63,7 @@ export type UploadImage = {
     message: string,
     payload: string
 }
+export type FetchCarSingle = {
+    message: string;
+    payload: Car; 
+  };

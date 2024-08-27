@@ -67,3 +67,7 @@ export type FetchCarSingle = {
     message: string;
     payload: Car; 
   };
+  export type SignUpType = {
+    message: string,
+    payload: User
+}

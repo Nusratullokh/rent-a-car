@@ -1,14 +1,12 @@
-import { Outlet } from "react-router-dom";
+import { Outlet } from 'react-router-dom'
 
 const Auth = () => {
-    return (
-        <div className="flex items-center justify-center min-h-screen">
-            <div className="max-w-[420px] w-full  p-10">
-                <Outlet />
+  return (
+    <div>Auth
 
-            </div>
-        </div>
-    );
-};
+        <Outlet/>
+    </div>
+  )
+}
 
-export default Auth;
+export default Auth
